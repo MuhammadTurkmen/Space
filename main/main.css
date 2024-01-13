@@ -32,3 +32,11 @@ section {
 .second-div {
     grid-area: second;
 }
+
+.third-div {
+    grid-area: third;
+}
+
+.fourth-div {
+    grid-area: fourth;
+}
