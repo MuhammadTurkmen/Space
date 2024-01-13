@@ -14,12 +14,16 @@ body {
 
 img {
     width: 300px;
+    object-fit: cover;
+    aspect-ratio: 1/1;
 }
 
 section {
+    background-color: red;
     margin: 20em auto;
     display: grid;
     width: 1000px;
+    height: 570px;
     grid-template-areas: 
         "first second third"
         "fourth fifth third";
