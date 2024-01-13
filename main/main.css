@@ -24,3 +24,11 @@ section {
         "first second third"
         "fourth fifth third";
 }
+
+.first-div {
+    grid-area: first;
+}
+
+.second-div {
+    grid-area: second;
+}
