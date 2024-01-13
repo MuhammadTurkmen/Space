@@ -47,3 +47,7 @@ section {
 .fifth-div {
     grid-area: fifth;
 }
+
+.mountin {
+    height: 266px;
+}
