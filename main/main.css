@@ -40,3 +40,7 @@ section {
 .fourth-div {
     grid-area: fourth;
 }
+
+.fifth-div {
+    grid-area: fifth;
+}
