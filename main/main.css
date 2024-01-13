@@ -12,12 +12,14 @@ body {
     height: 100vh;
 }
 
-
+img {
+    width: 300px;
+}
 
 section {
     margin: 20em auto;
     display: grid;
-    width: 500px;
+    width: 1000px;
     grid-template-areas: 
         "first second third"
         "fourth fifth third";
