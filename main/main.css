@@ -106,6 +106,9 @@ h1, p {
 
 .fifth-div > h1 {
     font-size: 4.9rem;
+    align-self: center;
+    justify-self: center;
+    margin: 0;
 }
 
 .mountin {
