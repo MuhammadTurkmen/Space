@@ -50,8 +50,12 @@ h1, p {
 
 .first-div > h1 {
     font-size: 2rem;
+    margin-top: 2.5rem;
 }
-   
+
+.first-div > p {
+
+}
 
 
 .second-div {
