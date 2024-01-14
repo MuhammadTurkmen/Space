@@ -100,8 +100,12 @@ h1, p {
     background: #AFDDBE;
     height: 278px;
     color: #79BA8F;
+    display: grid;
 
+}
 
+.fifth-div > h1 {
+    font-size: 4.9rem;
 }
 
 .mountin {
