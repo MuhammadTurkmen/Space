@@ -73,6 +73,10 @@ h1, p {
     font-size: 2.6rem;
 }
 
+.second-div > p {
+    font-size: 1.8rem;
+}
+
 .third-div {
     grid-area: third;
 }
