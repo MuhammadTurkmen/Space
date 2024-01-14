@@ -19,7 +19,6 @@ img {
 
 section {
     padding: 0;
-    background-color: aqua;
     margin: 20em auto;
     display: grid;
     max-width: 940px;
