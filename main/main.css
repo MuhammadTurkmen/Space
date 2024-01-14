@@ -48,7 +48,9 @@ h1, p {
 }
 
 
-
+.first-div > h1 {
+    font-size: 2rem;
+}
    
 
 
