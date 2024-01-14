@@ -18,22 +18,51 @@ img {
 }
 
 section {
-    background-color: red;
+    padding: 0;
+    background-color: aqua;
     margin: 20em auto;
     display: grid;
-    width: 1000px;
-    height: 570px;
+    max-width: 940px;
     grid-template-areas: 
-        "first second third"
-        "fourth fifth third";
+    "first second third"
+    "first fifth  third"
+    "fourth fifth third";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 20% 1fr;
+    gap: 2rem;
+    height: 569px;
+    
 }
 
 .first-div {
     grid-area: first;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    height: 405px;
 }
+
+h1, p {
+    margin-left: 2.9rem;
+}
+
+.fifth-div > p {
+    font-size: 2rem;
+    margin-right: 2rem;
+}
+
+.fifth-div > h1 {
+    font-size: 2rem;
+}
+   
+
 
 .second-div {
     grid-area: second;
+    background-color: #33A559;
+    height: 266px;
+
 }
 
 .third-div {
@@ -42,12 +71,19 @@ section {
 
 .fourth-div {
     grid-area: fourth;
+    height: 100%;
 }
 
 .fifth-div {
     grid-area: fifth;
+    background: #AFDDBE;
+    height: 278px;
 }
 
 .mountin {
     height: 266px;
+}
+
+.skay {
+    height: 100%;
 }
