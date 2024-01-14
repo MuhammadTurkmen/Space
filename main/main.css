@@ -47,14 +47,8 @@ h1, p {
     margin-left: 2.9rem;
 }
 
-.fifth-div > p {
-    font-size: 2rem;
-    margin-right: 2rem;
-}
 
-.fifth-div > h1 {
-    font-size: 2rem;     
-}
+
    
 
 
@@ -62,6 +56,7 @@ h1, p {
     grid-area: second;
     background-color: #33A559;
     height: 266px;
+    color: #fff;
 
 }
 
